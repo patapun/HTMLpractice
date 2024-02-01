@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Restuarant for Warwickster" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <h1>Available Restaurants</h1>
+    <ul>
+        <li>Benugo Bar and Kitchen</li>
+        <li>Fusion Sports Bar</li>
+        <li>Café Library</li>
+        <li>Ganapathi Catering</li>
+        <li>Jidong</li>
+        <li>Pret A Manger</li>
+        <li>Café Gibbet Hill</li>
+        <li>Café Oculus</li>
+        <li>Café Social</li>
+        <li>Library Coffee Bar</li>
+        <li>NAIC Café</li>
+        <li>Red Rocket</li>
+        <li>Aroma</li>
+    </ul>
+</body>
+
+</html>
