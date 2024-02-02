@@ -1,0 +1,24 @@
+<footer class="page-footer variant4 fullboxed">
+    <div class="footer-bot">
+        <div class="container">
+          <div class="footer-nav">
+            <ul>
+                {% for link in linklists[settings.footer_nav]links %}
+                    <li>{{ link.title | link_to: link.url }}</li>
+                {% endfor %}
+            </ul>
+          </div>
+      {% unless shop.enabled_payment_types == empty %}
+      {% assign payment_icons_available = 'amazon_payments,american_express,apple_pay,bitcoin,cirrus,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,jcb,litecoin,maestro,master,paypal,visa' | split: ',' %}
+        <div class="payment-icons">
+          {% for type in shop.enabled_payment_types %}
+            {% if payment_icons_available contains type %}
+              {% assign icon_name = type | prepend: 'icon-' %}
+                {% include icon_name %}
+                {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    {% endunless %}
+  </div>
+</footer>
