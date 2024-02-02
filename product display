@@ -1,0 +1,13 @@
+<ul class="products">
+    <li>
+        <a>
+            <div class="image" style="background-image:url(http://www.blogdobg.com.br/wp-content/uploads/2012/08/seu-madruga.jpg);"></div>
+            <h1>Information 1</h1>
+            <h2>Information 2</h2>
+            <div class="informations">
+            <p>any aditional information you want here bla bla bla bla lorem ipsum bacon yeah</p>
+                <label><input type="checkbox"/>checkbox</label>
+            </div>
+        </a>
+    </li>
+</ul>
