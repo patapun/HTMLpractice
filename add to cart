@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+    <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+      <meta charset="utf-8">
+      <title>Printing Prime</title>
+      <link rel="icon" type="image/png" href="img/favi.png">
+      <script src="js//bootstrap.min.js"></script>
+      <script src="js/script.js"></script>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+      <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css'>
+      <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css'>
+      <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto+Condensed:100'>
+      <link rel="stylesheet" type="text/css" href="css/home.css">
+      <link rel="stylesheet" href="css/splitslick/style.css">
+      <link rel="stylesheet" href="css/featprod/style.css"
+    </head>
+
+    <body>
+
+        <section id="" class="container-fluid cart">
+            <article id="" class="col">
+                <span class="open-modal">
+                    <i id="carts" class="fa fa-shopping-cart" data-toggle="modal" data-target="#cart"></i>
+                </span>
+            </article>
+        </section>
+
+    <section id="" class="container-fluid">
+        <article id="" class="row">
+             <div id="mask"></div>
+                <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                  </div>
+                  <div class="modal-body">
+                    <table class="show-cart table">
+
+                    </table>
+                    <div>Total price: $<span class="total-cart"></span></div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Order now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </article>
+    </section>
+
+    <section id="products" class="container-fluid">
+      <article id="" class="row">
+        <div id="" class="col col-md-12 product-grid">
+          <div class="col col-md-4 grid-item">
+            <div>
+              <div>
+                <div>
+                  <img style="height: 30vh; width: 15vw;" src="img/hat1.png" alt="Avatar">
+                  <h5 style="color:white;">Sad Face Cap</h5>
+                    <h5 style="color:white;">$12.99</h5>
+                  <div>
+                    <input type="number" placeholder="# of items">
+                    <a href="#" data-name="Sad Face Cap" data-price="12.99" class="add-to-cart btn btn-primary">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-4 grid-item">
+            <div>
+              <div>
+                <div>
+                  <img style="height: 30vh; width: 15vw;" src="img/shirt1.png" alt="Avatar">
+                  <h5 style="color:white;">Signature Tee</h5>
+                  <div>
+                    <input type="number" placeholder="# of items">
+                    <a href="#" data-name="Signature Tee" data-price="14.99" id="submit" class="add-to-cart btn btn-primary">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" col col-md-4 grid-item">
+            <div>
+              <div>
+                <div>
+                  <img style="height: 30vh; width: 14vw;" src="img/hoodie1.png" alt="Avatar" >
+                  <h5 style="color:white;">VHS Hoodie</h5>
+                  <div>
+                    <input type="number" placeholder="# of items" >
+                    <a href="#" data-name="VHS Hoodie" data-price="16.99" id="submit" class="add-to-cart btn btn-primary">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+      </body>
+      </html>
