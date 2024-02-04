@@ -1,0 +1,60 @@
+li {
+  float: left;
+  display: block;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+#flexbox_nav {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 60px;
+}
+
+#lscroll_but {
+  flex-grow: 1;
+}
+
+#head_nav {
+  flex-grow: 15;
+  flex-flow: row nowrap;
+  line-height: 20px;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+#rscroll_but {
+  flex-grow: 1;
+}
+<div id="containing_div">
+  <header>
+    <div id="flexbox_nav">
+      <button id="lscroll_but">LEFT</button>
+      <nav id="head_nav">
+        <ul>
+          <li><a>HOME</a></li>
+          <li><a>ONEZERO</a></li>
+          <li><a>ELEMENTAL</a></li>
+          <li><a>GEN</a></li>
+          <li><a>ZORA</a></li>
+          <li><a>FORGE</a></li>
+          <li><a>HUMAN PARTS</a></li>
+          <li><a>STARTUPS</a></li>
+          <li><a>SELF</a></li>
+          <li><a>TECH</a></li>
+          <li><a>HEATED</a></li>
+          <li><a>MODUS</a></li>
+          <li><a>MORE</a></li>
+          <li><a>STARTUPS</a></li>
+          <li><a>SELF</a></li>
+          <li><a>TECH</a></li>
+          <li><a>HEATED</a></li>
+          <li><a>MODUS</a></li>
+          <li><a>MORE</a></li>
+        </ul>
+      </nav>
+      <button id="rscroll_but">RIGHT</button>
+    </div>
+  </header>
+</div>
