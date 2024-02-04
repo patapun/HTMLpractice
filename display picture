@@ -1,0 +1,30 @@
+<center>your image</center>
+<div class="row">
+  <div class="five columns">
+    <center><img class="imga" src="images/warning.png"></center>
+  </div>
+  <div class="seven columns">
+   <p style="color:#e57a2a; font-size: 150%; text-align: center; line-height: 1.1;"><b> siamo spiacenti ma il servizio a domicilio non e al momento disponibile in questa zona </b></p> 
+   <p style="color:#20540D; font-size: 120%; text-align: center; line-height: 1.1;"> ti invitiamo ad effettuare l'ordine per il ritiro in negozio presso i nostri ristoranti</p> 
+   <center><button style="background-color:#e57a2a;color:white; border:none; height:35px;">ordina ora </button></center>
+  </div>
+</div>
+<style>
+@media all and (max-width:768px){
+.columns {
+display:block;
+position:relative;
+}
+}
+</style>
+<style>
+.columns {
+display:table-cell;
+vertical-align:middle;
+}
+.row {
+display:table;
+position:absolute;
+height:100%;
+}
+</style>
